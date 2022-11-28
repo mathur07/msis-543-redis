@@ -50,3 +50,4 @@ rpop
 
 npm init
 npm i express
+npm i redis
