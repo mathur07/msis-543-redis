@@ -10,7 +10,7 @@ app.use(cors())
 
 const port = 3000
 
-const redisClient = Redis.createClient()
+// const redisClient = Redis.createClient()
 const REDIS_EXP = 3600
 
 
