@@ -20,11 +20,12 @@ app.get('/', async (req, res) => {
     res.send('Hello World!')
 })
 
-app.get("/photos", async (req, res) => {
+app.get("/photos-with-redis", async (req, res) => {
+    console.log("Redis is implemented");
     try {
         await redisClient.connect()
     } catch (error) {
-        console.log("redisClient is connected " + error);
+        console.log("redisClient is connected" );
     }
     redisClient.get("photos")
         .then(val => {
@@ -43,6 +44,19 @@ app.get("/photos", async (req, res) => {
             }
         })
         .catch(err => console.log(err))
+})
+
+app.get("/photos-without-redis", async (req, res) => {
+    console.log("Redis is NOT implemented");
+    fetch("https://jsonplaceholder.typicode.com/photos")
+        .then((response) => response.json())
+        .then((data) => {
+            res.json(data)
+        })
+        .catch(function (err) {
+            console.log("Unable to fetch -", err);
+        });
+
 })
 
 app.listen(port, () => {
