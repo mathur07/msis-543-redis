@@ -58,6 +58,8 @@
 > ### keys (https://redis.io/commands/keys/)
 > > #### Syntax: 
 > > KEYS pattern 
+> > #### Example:
+> > 127.0.0.1:6379> KEYS *
 > > </br>
 > > </br> 
 > > * h?llo matches hello, hallo and hxllo
@@ -71,8 +73,6 @@
 > > *  h[a-b]llo matches hallo and hbllo
 > > </br> 
 > > </br> 
-> > #### Example:
-> > 127.0.0.1:6379> KEYS *
 > * is use to view all keys matching the pattern
 
 
