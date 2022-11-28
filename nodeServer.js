@@ -1,9 +1,15 @@
-const express = require("express")
-const axios = require("axios")
-const cors = require("cors")
+const express = require('express')
+const axios = require('axios')
+// const cors = require('cors')
 
 const app = express()
-app.use(cors)
+// app.use(cors)
+
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 
 app.get("/photos" , async(req,res)=>{
     const albumId = req.query.albumId
@@ -21,4 +27,7 @@ app.get("/photos" , async(req,res)=>{
 //     res.json(data)
 // })
 
-app.listen(3000)
+
+app.listen(port, () => {
+    console.log(`Server listening on port ${port}`)
+  })
