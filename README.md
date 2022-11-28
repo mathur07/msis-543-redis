@@ -28,11 +28,15 @@ keys *
 
 
 flushall
+------
+
 
 if there is an y problem in cashing then cleaning is a good way to solve it
 
 
 ttl <- Time-to-live 
+
+
 -1 means no expiration
 
 expire <- name 10

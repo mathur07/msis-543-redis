@@ -1,5 +1,5 @@
 {
-  "name": "msis-512-redis",
+  "name": "msis-543-redis",
   "version": "1.0.0",
   "description": "Basic redis example",
   "main": "nodeServer.js",
