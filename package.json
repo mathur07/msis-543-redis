@@ -1,0 +1,25 @@
+{
+  "name": "msis-512-redis",
+  "version": "1.0.0",
+  "description": "Basic redis example",
+  "main": "nodeServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node nodeServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathur07/msis-512-redis.git"
+  },
+  "author": "Shubham Mathur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathur07/msis-512-redis/issues"
+  },
+  "homepage": "https://github.com/mathur07/msis-512-redis#readme",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
