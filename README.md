@@ -15,7 +15,7 @@
 ## Commands to play around with redis (https://redis.io/commands/)
 
 > ### quit (https://redis.io/commands/quit/)
-> > Syntax : QUIT
+> > ### Syntax : QUIT
 > * is use to quit from the redis cli
 > * Ask the server to close the connection. The connection is closed as soon as all pending replies have been written to the client.
 
@@ -39,12 +39,12 @@
 
 
 > ### delete (https://redis.io/commands/del/)
-> > ## Syntax : 
+> > ### Syntax : 
 > > DEL key [key ...]
-> > ## Example
+> > ### Example
 > > 127.0.0.1:6379> DEL key1 key2
 > * is use to get value of key store in redis
-> * Get the value of key. If the key does not exist the special value nil is returned. An error is returned if the value stored at key is not a string, because GET only handles string values.
+> * removes the specified keys. A key is ignored if it does not exist.
 
 > ### exists (https://redis.io/commands/exists/)
 > > ### Syntax : 
