@@ -1,7 +1,7 @@
 const express = require('express')
 const axios = require('axios')
 const cors = require('cors')
-// const Redis = require('redis')
+const Redis = require('redis')
 const { json } = require('express')
 
 
@@ -10,7 +10,7 @@ app.use(cors())
 
 const port = 3000
 
-// const redisClient = Redis.createClient()
+const redisClient = Redis.createClient()
 const REDIS_EXP = 3600
 
 
