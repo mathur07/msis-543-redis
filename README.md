@@ -69,6 +69,7 @@
 > > *  h[^e]llo matches hallo, hbllo, ... but not hello
 > > </br> 
 > > *  h[a-b]llo matches hallo and hbllo
+> > </br> 
 > > #### Example:
 > > 127.0.0.1:6379> KEYS *
 > * is use to view all keys matching the pattern
