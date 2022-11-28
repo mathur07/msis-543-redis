@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathur07/msis-512-redis.git"
+    "url": "git+https://github.com/mathur07/msis-543-redis.git"
   },
   "author": "Shubham Mathur",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mathur07/msis-512-redis/issues"
+    "url": "https://github.com/mathur07/msis-543-redis/issues"
   },
-  "homepage": "https://github.com/mathur07/msis-512-redis#readme",
+  "homepage": "https://github.com/mathur07/msis-543-redis#readme",
   "dependencies": {
     "axios": "^1.2.0",
     "cors": "^2.8.5",
