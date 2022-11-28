@@ -1,4 +1,4 @@
-# msis-512-redis
+# msis-543-redis
 Basic Redis implementation
 
 sudo dnf install redis (fedora)
